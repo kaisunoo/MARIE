@@ -1,0 +1,22 @@
+﻿/Kyla Caryl B. Españo - LT03
+/Program that asks for a number(x) from the user's input.
+/Then, display all the values from 1 to x-1.
+
+INPUT /inputs a value from the keyboard into AC
+STORE Y /stores the content of AC into adress Y
+
+begin_loop, LOAD X /loads the value of X
+                   OUTPUT /displays the current value of X
+                   ADD one / adds 1 into X
+            STORE X /stores the new value X
+            SUBT Y /subtracts by value of Y (X = X - Y)
+            SKIPCOND 400 /Skip next line if AC is equal to 0
+            JUMP begin_loop
+            HALT /Terminates the program.
+
+
+
+/Variable Declaration
+X, DEC 1 
+one, DEC 1
+Y, DEC 0 
